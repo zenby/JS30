@@ -1,99 +1,113 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .picture {
-    position: relative;
-    display: flex;
-    height: 100vh;
-    background: url(https://images.unsplash.com/photo-1493693108824-89c9e9174340?ixlib=rb-0.3.5&s=e9caa81dddb742a884968e155d9f1584&auto=format&fit=crop&w=2108&q=80);
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1493693108824-89c9e9174340?ixlib=rb-0.3.5&s=e9caa81dddb742a884968e155d9f1584&auto=format&fit=crop&w=2108&q=80);
 }
 
 .buttons {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .tumbler {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .btn {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 button {
-    border: 3px solid black;
-    opacity: 0.4;
+  border: 3px solid black;
+  opacity: 0.4;
 }
 
 .active {
-    transform: scale(1.4);
-    border: 5px solid yellow;
+  transform: scale(1.4);
+  border: 5px solid yellow;
+}
+
+a {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background-color: rgb(221, 221, 221);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.3333px;
+  padding: 5px;
+  border: 3px solid black;
+  opacity: 0.4;
+  text-decoration: none;
+  color: black;
 }
 
 .a {
-    position: absolute;
-    top: 575px;
-    left: 1570px;
+  position: absolute;
+  top: 575px;
+  left: 1570px;
 }
 
 .s {
-    position: absolute;
-    top: 362px;
-    left: 695px;
+  position: absolute;
+  top: 362px;
+  left: 695px;
 }
 
 .d {
-    position: absolute;
-    top: 875px;
-    left: 1170px;
+  position: absolute;
+  top: 875px;
+  left: 1170px;
 }
 
 .f {
-    position: absolute;
-    top: 520px;
-    left: 913px;
+  position: absolute;
+  top: 520px;
+  left: 913px;
 }
 
 .g {
-    position: absolute;
-    top: 477px;
-    left: 1170px;
+  position: absolute;
+  top: 477px;
+  left: 1170px;
 }
 
 .h {
-    position: absolute;
-    top: 375px;
-    left: 1470px;
+  position: absolute;
+  top: 375px;
+  left: 1470px;
 }
 
 .j {
-    position: absolute;
-    top: 575px;
-    left: 670px;
+  position: absolute;
+  top: 575px;
+  left: 670px;
 }
 
 .k {
-    position: absolute;
-    top: 775px;
-    left: 870px;
+  position: absolute;
+  top: 775px;
+  left: 870px;
 }
 
 .l {
-    position: absolute;
-    top: 575px;
-    left: 1370px;
+  position: absolute;
+  top: 575px;
+  left: 1370px;
 }
 
 .t {
-    position: absolute;
-    top: 682px;
-    left: 1276px;
+  position: absolute;
+  top: 682px;
+  left: 1276px;
 }
