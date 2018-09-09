@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1437751059337-ea72d4f73fcf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe707b52c7e6f6238aa8d81e5db65b60&auto=format&fit=crop&w=1942&q=80);
+}
+
+.clock {
+  position: relative;
+  margin-left: 620px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  visibility: hidden;
+  box-shadow: inset -20px -20px 10px 10px white;
+}
+
+.arrow {
+  left: 46.25%;
+  position: absolute;
+  background-image: linear-gradient(
+    to right, 
+    rgb(255, 255, 255), 
+    rgb(99, 163, 147));
+  border-radius: 9px;
+  visibility: hidden;
+}
+
+.second {
+  top: calc(50% - 1px);
+  height: 2px;
+  width: 90px;
+  transform-origin: 8.33%;
+}
+
+.minute {
+  top: calc(50% - 3px);
+  height: 6px;
+  width: 75px;
+  transform-origin: 10%;
+}
+
+.hour {
+  top: calc(50% - 3px);
+  height: 6px;
+  width: 50px;
+  transform-origin: 15%;
+}
+
+.back {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background-color: rgb(221, 221, 221);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.3333px;
+  padding: 5px;
+  border: 3px solid black;
+  opacity: 0.4;
+  text-decoration: none;
+  color: black;
+}
