@@ -36,7 +36,11 @@ document.addEventListener('click', (event) => {
 function selectAndPlay(key, callback, arg) {
   const audio = document.querySelector(`audio[data-key="${key.toUpperCase()}"]`)
   if (audio) {
-    audio.play();
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.currentTime = 0;
+    }
     callback(arg);
   }
 }
