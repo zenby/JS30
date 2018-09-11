@@ -1,0 +1,47 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  --base-color: #000040;
+  --offset-top: 300px;
+  --offset-left: 30vw;
+  --border-width: 20px;
+  --blur: 5px;
+  background-image: url(./img/wall.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: relative;
+} 
+
+.picture {
+  position: absolute;
+  top: var(--offset-top);
+  left: var(--offset-left);
+  filter: blur(var(--blur));
+  width: 10vw;
+  height: 15vw;
+  border-color: var(--base-color);
+  border-width: var(--border-width);
+  border-style: solid;
+  background-image: url(./img/giraffe.jpg);
+  background-size: cover;
+}
+
+.label {
+  display: inline-block;
+  width: 100px;
+}
+
+.controller {
+  position: fixed;
+  padding: 20px;
+  bottom: 50px;
+  left: 0;
+}
