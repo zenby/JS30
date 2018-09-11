@@ -7,7 +7,7 @@ body {
   position: relative;
   display: flex;
   height: 100vh;
-  background: url(https://images.unsplash.com/photo-1493693108824-89c9e9174340?ixlib=rb-0.3.5&s=e9caa81dddb742a884968e155d9f1584&auto=format&fit=crop&w=2108&q=80);
+  background: url(./img/drum.jpg)
 }
 
 .buttons {
