@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dynamic hmtl</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <a class="back-link" href="https://zenby.github.io/JS30/">Back</a>
+  <div class="container">
+    <div class="picture">
+    </div>
+  </div>
+  <div class="controller">
+    <h3>Help to place the picture</h3>
+    <div class="line">
+      <span class="label">Border color</span>
+      <input type="color" name="base-color" value="#000040">
+    </div>
+    <div class="line">
+      <span class="label">Border width</span>
+      <input type="range" name="border-width" min="8" max="30" value="20" data-size="px">
+    </div>
+    <div class="line">
+      <span class="label">Blur degree</span>
+      <input type="range" name="blur" min="0" max="10" value="5" data-size="px">
+    </div>
+    <div class="line">
+      <span class="label">Position X</span>
+      <input type="range" name="offset-left" min="10" max="80" value="30" data-size="vw">
+    </div>
+    <div class="line">
+      <span class="label vertical">Position Y</span>
+      <input type="range" name="offset-top" min="280" max="500" value="300" data-size="px">
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

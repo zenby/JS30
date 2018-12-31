@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Speech synthesis</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <a class="back-link" href="https://zenby.github.io/JS30/">Back</a>
+
+  <div class="voiceinator">
+    <h1>The Voiceinator</h1>
+
+    <select name="voice" id="voices">
+      <option value="">Select A Voice</option>
+    </select>
+
+    <label for="rate">Rate:</label>
+    <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+
+    <label for="pitch">Pitch:</label>
+    <input name="pitch" type="range" min="0" max="2" step="0.1">
+
+    <textarea name="text">Hello! You can write something here and listen it</textarea>
+
+    <button id="stop">Stop!</button>
+    <button id="speak">Speak</button>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
